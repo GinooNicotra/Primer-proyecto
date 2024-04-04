@@ -1,0 +1,134 @@
+/*!----------------INDEX.HTML------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------HEADER----------------------!*/
+header nav{
+    display: inline-block;
+}
+header nav  a img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+header{
+    background-color: rgb(83, 153, 110);
+    position: sticky;
+    top: 0px;
+}
+header nav ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex; 
+    justify-content: right;
+}
+header nav ul li{
+    margin: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header nav ul li a img{
+    width: 40px;
+    height: 40px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+/*---------------MAIN----------------------!*/
+.tarjetas h3{
+    margin: 10px;
+}
+.section1 div h2{
+    background-color: black;
+    color: white;
+}
+.comida1 img{
+    width: 370px;
+    height: 370px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.section1 .tarjetas div a{
+    background-color: rgb(214, 154, 42);
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+    text-decoration: none
+}
+.section1 .tarjetas .tarjetas2{
+    border-radius: 20px;
+    background-color:rgb(83, 153, 110);
+    border: 2px gray solid;
+    width: 390px;
+    height: 480px;
+    text-align: center;
+    margin: 20px;
+}
+.tarjetas div img{
+    width: 370px;
+    height: 370;
+    border-radius: 30px;
+    margin: 10px;
+}
+.redes {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.section1 .tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tarjetas div a:hover{
+    padding: 11px;
+    background-color: black;
+}
+.tarjetas div:hover{
+    padding: 16px;
+}
+/*---------------FOOTER----------------------!*/
+footer{
+    background-color: rgb(83, 153, 110);
+}
+footer div img{
+    width: 60px;
+    height: 60px;
+}
+/*----------------SESION.HTML------------------*/
+/*---------------MAIN----------------------!*/
+.section2 .sesion div input{
+    margin: 8px;
+}
+.sesion h2{
+    margin-bottom: 30px;
+}
+.section2 .sesion div a{
+    background-color: rgb(214, 154, 42);
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+    text-decoration: none
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sesion {
+    border-radius: 20px;
+    background-color:rgb(83, 153, 110);
+    border: 2px gray solid;
+    width: 300px;
+    height:190px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
