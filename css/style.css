@@ -13,7 +13,7 @@ header nav  a img{
     display: inline-block;
 }
 header{
-    background-color: rgb(83, 153, 110);
+    background-color: rgb(96, 83, 153);
     position: sticky;
     top: 0px;
 }
