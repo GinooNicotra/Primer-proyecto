@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Coderhouse</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <a href="../index.html"><h1><img src="../img/food.png" alt=""></h1></a>
-        <!--barra de buscador-->
-        <ul>
-            <li><a href="../index.html">Menu de la semana</a></li>   
-            <li><a href="./comofunciona.html">Como funciona</a></li>
-            <li><a href="./quienessomos.html">Quienes somos?</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./sesion.html"><img src="../img/user.png" alt=""></a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg menu-color fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse formato-letras" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="../index.html">Menu de la semana</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./comofunciona.html">Como funcionamos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienessomos.html">Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sesion.html">Inicia sesion</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -26,7 +46,7 @@
                 <h2>Iniciar Sesión</h2>
                 <div>
                     <label for="usuario">Usuario:</label>
-                    <input type="text" name="usuario" required> 
+                    <input type="text" name="usuario" required>
                 </div>
                 <div>
                     <label for="contraseña">Contraseña:</label>
@@ -40,11 +60,28 @@
     </main>
     <footer>
         <!--estrellas de calificacion-->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis libero iusto recusandae eos deserunt magnam sit, doloremque dolor dicta doloribus ducimus in odio nihil nisi non delectus molestias praesentium labore ea expedita voluptatum exercitationem nam. Placeat earum quia laboriosam optio repellendus voluptates, iure quibusdam. Voluptatem facilis ea cumque eaque, expedita temporibus, a eligendi culpa dolor rem voluptate aspernatur, odio consequuntur libero dolorum reprehenderit magnam enim. Earum, aspernatur, esse quisquam atque optio, ut quos sed at placeat provident quidem corporis vel dolore harum amet repellat dolores? Obcaecati tempore distinctio impedit, nemo accusantium pariatur suscipit eum. Accusantium eaque reiciendis incidunt ratione non illo eligendi corporis, voluptas temporibus, harum excepturi natus veniam magnam eius molestias sunt? Reiciendis placeat quis obcaecati excepturi recusandae accusantium exercitationem animi in vel quia quae, neque sed rerum corporis ratione incidunt quod id, maxime, nobis eius dolorem consectetur. Excepturi, voluptatem est! Vero dolorum dicta labore blanditiis sit aspernatur ea repudiandae, voluptatem harum ipsam repellendus atque odio rerum temporibus quos, corporis accusamus laudantium. Cum, laborum ipsum rerum animi asperiores eligendi inventore dolorum, culpa facere magnam quae debitis quaerat incidunt, explicabo sed cupiditate eum ullam sapiente quis consequuntur aperiam? Reprehenderit esse voluptatibus, vel commodi porro dolore magnam voluptates perferendis unde.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis libero iusto recusandae eos deserunt
+            magnam sit, doloremque dolor dicta doloribus ducimus in odio nihil nisi non delectus molestias praesentium
+            labore ea expedita voluptatum exercitationem nam. Placeat earum quia laboriosam optio repellendus
+            voluptates, iure quibusdam. Voluptatem facilis ea cumque eaque, expedita temporibus, a eligendi culpa dolor
+            rem voluptate aspernatur, odio consequuntur libero dolorum reprehenderit magnam enim. Earum, aspernatur,
+            esse quisquam atque optio, ut quos sed at placeat provident quidem corporis vel dolore harum amet repellat
+            dolores? Obcaecati tempore distinctio impedit, nemo accusantium pariatur suscipit eum. Accusantium eaque
+            reiciendis incidunt ratione non illo eligendi corporis, voluptas temporibus, harum excepturi natus veniam
+            magnam eius molestias sunt? Reiciendis placeat quis obcaecati excepturi recusandae accusantium
+            exercitationem animi in vel quia quae, neque sed rerum corporis ratione incidunt quod id, maxime, nobis eius
+            dolorem consectetur. Excepturi, voluptatem est! Vero dolorum dicta labore blanditiis sit aspernatur ea
+            repudiandae, voluptatem harum ipsam repellendus atque odio rerum temporibus quos, corporis accusamus
+            laudantium. Cum, laborum ipsum rerum animi asperiores eligendi inventore dolorum, culpa facere magnam quae
+            debitis quaerat incidunt, explicabo sed cupiditate eum ullam sapiente quis consequuntur aperiam?
+            Reprehenderit esse voluptatibus, vel commodi porro dolore magnam voluptates perferendis unde.</p>
         <div class="redes">
             <a href="https://www.instagram.com"><img src="../img/ig.png" alt=""></a>
             <a href="https://www.facebook.com/?locale=es_LA"><img src="../img/facebu.png" alt=""></a>
             <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../img/whatsapp.png" alt=""></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>

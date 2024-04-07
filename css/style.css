@@ -4,41 +4,21 @@
     padding: 0;
 }
 /*---------------HEADER----------------------!*/
-header nav{
-    display: inline-block;
+.posicion nav {
+    position: fixed;
 }
-header nav  a img{
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-}
-header{
-    background-color: rgb(83, 153, 110);
-    position: sticky;
-    top: 0px;
-}
-header nav ul{
+.formato-letras a{
     font-size: 20px;
-    list-style: none;
-    display: flex; 
-    justify-content: right;
+    font-weight: 800;
+    color: aliceblue;
 }
-header nav ul li{
-    margin: 20px;
-}
-header nav ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-header nav ul li a img{
-    width: 40px;
-    height: 40px;
-}
-.logo{
-    width: 100px;
-    height: 100px;
+.menu-color{
+    background-color: rgb(83, 153, 110);
 }
 /*---------------MAIN----------------------!*/
+body{
+    padding-top: 55px;
+}
 .tarjetas h3{
     margin: 10px;
 }
@@ -63,8 +43,8 @@ header nav ul li a img{
     border-radius: 20px;
     background-color:rgb(83, 153, 110);
     border: 2px gray solid;
-    width: 390px;
-    height: 480px;
+    width: 450px;
+    height: 510px;
     text-align: center;
     margin: 20px;
 }
@@ -72,7 +52,8 @@ header nav ul li a img{
     width: 370px;
     height: 370;
     border-radius: 30px;
-    margin: 10px;
+    margin: 15px;
+    margin-bottom: 17px;
 }
 .redes {
     position: fixed;
@@ -89,7 +70,7 @@ header nav ul li a img{
     background-color: black;
 }
 .tarjetas div:hover{
-    padding: 16px;
+    padding: 12px;
 }
 /*---------------FOOTER----------------------!*/
 footer{
