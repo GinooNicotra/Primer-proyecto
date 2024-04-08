@@ -4,6 +4,7 @@
     padding: 0;
 }
 /*---------------HEADER----------------------!*/
+
 .posicion nav {
     position: fixed;
 }
@@ -11,6 +12,10 @@
     font-size: 20px;
     font-weight: 800;
     color: aliceblue;
+}
+.formato-letras a:hover{
+    color: aliceblue;
+    text-shadow: 3px 3px 3px #413d3d;
 }
 .menu-color{
     background-color: rgb(83, 153, 110);
@@ -80,7 +85,7 @@ footer div img{
     width: 60px;
     height: 60px;
 }
-/*----------------SESION.HTML------------------*/
+/*!----------------SESION.HTML------------------*/
 /*---------------MAIN----------------------!*/
 .section2 .sesion div input{
     margin: 8px;
@@ -112,4 +117,228 @@ footer div img{
     flex-direction: column;
     justify-content:center ;
     align-items: center;
+}
+/*!----------------COMOFUNCIONA.HTML------------------*/
+/*---------------MAIN----------------------!*/
+.como-funciona{
+    text-align: center;
+    margin-top: 60px;
+}
+.como-funciona h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+.como-funciona h3{
+    font-size: 20px;
+    font-weight: 1;
+}
+.como-funciona-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.como-funciona-1 img{
+    width: 600px;
+}
+.como-funciona-1 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.como-funciona-1 p{
+    font-size: 20px;
+}
+.como-funciona-1 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+.como-funciona-2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #bbb8b8;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.como-funciona-2 img{
+    width: 600px;
+}
+.como-funciona-2 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.como-funciona-2 p{
+    font-size: 20px;
+}
+.como-funciona-2 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+.como-funciona-3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.como-funciona-3 img{
+    width: 600px;
+}
+.como-funciona-3 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.como-funciona-3 p{
+    font-size: 20px;
+}
+.como-funciona-3 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+/*!----------------QUIENES SOMOS.HTML------------------*/
+/*---------------MAIN----------------------!*/
+.quienes-somos{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.quienes-somos h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+.quienes-somos h3{
+    font-size: 20px;
+    font-weight: 1;
+}
+.quienes-somos-1{
+    display: flex;
+    align-items: center;
+    background-color: #bbb8b8;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.quienes-somos-1 img{
+    width: 450px;
+}
+.quienes-somos-1 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.quienes-somos-1 p{
+    font-size: 20px;
+}
+.quienes-somos-1 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+.quienes-somos-2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.quienes-somos-2 img{
+    width: 450px;
+    border-radius: 50px;
+}
+.quienes-somos-2.quienes-somos-2 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.quienes-somos-2 p{
+    font-size: 20px;
+}
+.quienes-somos-2 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+.quienes-somos-3{
+    display: flex;
+    align-items: center;
+    background-color: #bbb8b8;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.quienes-somos-3 img{
+    width: 450px;
+    border-radius: 50px;
+}
+.quienes-somos-3 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.quienes-somos-3 p{
+    font-size: 20px;
+}
+.quienes-somos-3 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+.quienes-somos-4{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.quienes-somos-4 img{
+    width: 450px;
+    border-radius: 50px;
+}
+.quienes-somos-4 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.quienes-somos-4 p{
+    font-size: 20px;
+}
+.quienes-somos-4 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
+}
+.quienes-somos-5{
+    display: flex;
+    align-items: center;
+    background-color: #bd9e65;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 20px;
+}
+.quienes-somos-5 img{
+    width: 450px;
+    border-radius: 50px;
+}
+.quienes-somos-5 div{
+    width: 70%;
+    margin-left: 90px;
+}
+.quienes-somos-5 p{
+    font-size: 20px;
+}
+.quienes-somos-5 h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px
 }
