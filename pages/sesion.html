@@ -42,20 +42,55 @@
     </header>
     <main>
         <section class="section2">
-            <div class="sesion">
-                <h2>Iniciar Sesión</h2>
-                <div>
-                    <label for="usuario">Usuario:</label>
-                    <input type="text" name="usuario" required>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <div>
-                    <label for="contraseña">Contraseña:</label>
-                    <input type="password" id="contraseña" name="contraseña" required>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4">
                 </div>
-                <div>
-                    <a href="">Enviar</a>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Donde los enviamos?</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Calle Principal">
                 </div>
-            </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Localidad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Pais</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Argentina</option>
+                        <option>Bolivia</option>
+                        <option>Brasil</option>
+                        <option>Chile</option>
+                        <option>Colombia</option>
+                        <option>Ecuador</option>
+                        <option>Guyana</option>
+                        <option>Perú</option>
+                        <option>Surinam</option>
+                        <option>Uruguay</option>
+                        <option>Venezuela</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Codigo postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Acepto terminos y condiciones
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
