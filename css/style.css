@@ -249,7 +249,7 @@ footer div img{
     width: 450px;
     border-radius: 50px;
 }
-.quienes-somos-2.quienes-somos-2 div{
+.quienes-somos-2 div{
     width: 70%;
     margin-left: 90px;
 }
@@ -347,12 +347,12 @@ footer div img{
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     grid-gap: 10px;
     padding: 40px;
-    margin-bottom: 50px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
     background-color: #bbb8b8;
     border-radius: 20px;
 }
@@ -393,9 +393,470 @@ footer div img{
 .grid-item:hover .animacion {
     opacity: 1;
 }
-
 .animacion h4 {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+/*!----------------media query------------------*/
+/*------------------quienes somos---------------*/
+@media screen and (max-width:1080px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 10px;
+        padding: 40px;
+        margin-bottom: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
+        background-color: #bbb8b8;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:986px){
+    .quienes-somos-1{
+        display: flex;
+        align-items: center;
+        background-color: #bbb8b8;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding: 0px;
+    }
+    .quienes-somos-1 img{
+        width: 350px;
+    }
+    .quienes-somos-1 p{
+        font-size: 20px;
+    }
+    .quienes-somos-1 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 40px
+    }
+    .quienes-somos-2{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .quienes-somos-2 img{
+        width:  350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-2 p{
+        font-size: 20px;
+    }
+    .quienes-somos-2 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 40px
+    }
+    .quienes-somos-3{
+        display: flex;
+        align-items: center;
+        background-color: #bbb8b8;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding: 20px;
+    }
+    .quienes-somos-3 img{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-3 p{
+        font-size: 20px;
+    }
+    .quienes-somos-3 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 40px
+    }
+    .quienes-somos-4{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .quienes-somos-4 img{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-4 p{
+        font-size: 20px;
+    }
+    .quienes-somos-4 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 40px
+    }
+    .quienes-somos-5{
+        display: flex;
+        align-items: center;
+        background-color: #bd9e65;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding: 20px;
+    }
+    .quienes-somos-5 img{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-5 p{
+        font-size: 20px;
+    }
+    .quienes-somos-5 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 40px
+    }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    padding: 40px;
+    margin-bottom: 45px;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: #bbb8b8;
+    border-radius: 20px;
+}
+}
+@media screen and (max-width:894px){
+    .quienes-somos-1{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #bbb8b8;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .quienes-somos-1 div{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .quienes-somos-1 img{
+        width: 350px;
+    }
+    .quienes-somos-1 p{
+        font-size: 17px;
+    }
+    .quienes-somos-1 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px
+    }
+    .quienes-somos-2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .quienes-somos-2 div{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .quienes-somos-2 img{
+        width:  350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-2 p{
+        font-size: 17px;
+    }
+    .quienes-somos-2 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px
+    }
+    .quienes-somos-3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #bbb8b8;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding: 20px;
+    }
+    .quienes-somos-3 div{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .quienes-somos-3 img{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-3 p{
+        font-size: 17px;
+    }
+    .quienes-somos-3 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px
+    }
+    .quienes-somos-4{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .quienes-somos-4 div{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .quienes-somos-4 img{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-4 p{
+        font-size: 17px;
+    }
+    .quienes-somos-4 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px
+    }
+    .quienes-somos-5{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #bd9e65;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding: 10px;
+    }
+    .quienes-somos-5 div{
+        width: 90%;
+        margin-right: 50px;
+    }
+    .quienes-somos-5 img{
+        width: 350px;
+        border-radius: 50px;
+    }
+    .quienes-somos-5 p{
+        font-size: 17px;
+    }
+    .quienes-somos-5 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px
+    }
+}
+@media screen and (max-width:562px){
+    .quienes-somos-1 img{
+        width: 250px;
+        border-radius: 50px;
+    }
+    .quienes-somos-2 img{
+        width: 250px;
+        border-radius: 50px;
+    }
+    .quienes-somos-3 img{
+        width: 250px;
+        border-radius: 50px;
+    }
+    .quienes-somos-4 img{
+        width: 250px;
+        border-radius: 50px;
+    }
+    .quienes-somos-5 img{
+        width: 250px;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width:478px){
+    .quienes-somos h2{
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 2px;
+    }
+    .quienes-somos h3{
+        font-size: 15px;
+        font-weight: 1;
+    }
+    .quienes-somos-1 img{
+        width: 250px;
+    }
+    .quienes-somos-1 p{
+        font-size: 15px;
+        padding-right: 50px;
+    }
+    .quienes-somos-1 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 25px
+    }
+    .quienes-somos-2 img{
+        width: 250px;
+    }
+    .quienes-somos-2 p{
+        font-size: 15px;
+        padding-right: 50px;
+    }
+    .quienes-somos-2 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 25px
+    }
+    .quienes-somos-3 img{
+        width: 250px;
+    }
+    .quienes-somos-3 p{
+        font-size: 15px;
+        padding-right: 50px;
+    }
+    .quienes-somos-3 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 25px
+    }
+    .quienes-somos-4 img{
+        width: 250px;
+    }
+    .quienes-somos-4 p{
+        font-size: 15px;
+        padding-right: 50px;
+    }
+    .quienes-somos-4 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 25px
+    }
+    .quienes-somos-5 img{
+        width: 250px;
+    }
+    .quienes-somos-5 p{
+        font-size: 15px;
+        padding-right: 50px;
+    }
+    .quienes-somos-5 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 25px
+    }
+}
+@media screen and (max-width:439px){
+    .quienes-somos-1 img{
+        width: 200px;
+        border-radius: 50px;
+    }
+    .quienes-somos-1 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 20px
+    }
+    .quienes-somos-2 img{
+        width: 200px;
+        border-radius: 50px;
+    }
+    .quienes-somos-2 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 20px
+    }
+    .quienes-somos-3 img{
+        width: 200px;
+        border-radius: 50px;
+    }
+    .quienes-somos-3 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 20px
+    }
+    .quienes-somos-4 img{
+        width: 200px;
+        border-radius: 50px;
+    }
+    .quienes-somos-4 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 20px
+    }
+    .quienes-somos-5 img{
+        width: 200px;
+        border-radius: 50px;
+    }
+    .quienes-somos-5 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 20px
+    }
+}
+@media screen and (max-width:411px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+        padding: 40px;
+        margin-bottom: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
+        background-color: #bbb8b8;
+        border-radius: 20px;
+    }
+    .grilla h3{
+        margin-bottom: 20px;
+        text-align: center;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 30px
+    }
+}
+@media screen and (max-width:389px){
+    .quienes-somos-1 img{
+        width: 250px;
+        border-radius: 50px;
+    }
+    .quienes-somos-2 img{
+        width: 180px;
+        border-radius: 50px;
+    }
+    .quienes-somos-3 img{
+        width: 180px;
+        border-radius: 50px;
+    }
+    .quienes-somos-4 img{
+        width: 180px;
+        border-radius: 50px;
+    }
+    .quienes-somos-5 img{
+        width: 180px;
+        border-radius: 50px;
+    }
+    .quienes-somos-5 h3{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 15px
+    }
+}
+/*------------------index.html---------------*/
+@media screen and (max-width:493px){
+    .tarjetas div img{
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        margin: 15px;
+        margin-bottom: 17px;
+    }
+    .tarjetas div{
+
+        flex-direction: column;
+    }
 }
