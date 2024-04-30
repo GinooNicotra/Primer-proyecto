@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.position nav {
+  position: fixed; }
+
+.formato-letras a {
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue; }
+  .formato-letras a:hover {
+    color: aliceblue;
+    text-shadow: 3px 3px 3px #413d3d; }
+
+.menu-color {
+  background-color: #53996e; }
+
+footer {
+  background-color: #53996e; }
+  footer div img {
+    width: 60px;
+    height: 60px; }
+
+.redes {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
+
+body {
+  padding-top: 55px; }
+
+.section1 .separador {
+  display: flex;
+  align-items: center;
+  margin: 20px 0; }
+  .section1 .separador .separador-texto {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px; }
+  .section1 .separador .linea {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #000000; }
+
+.section1 .tarjetas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .section1 .tarjetas div {
+    background-color: #d69a2a;
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+    text-decoration: none; }
+    .section1 .tarjetas div img {
+      width: 370px;
+      height: 370;
+      border-radius: 30px;
+      margin: 15px;
+      margin-bottom: 17px; }
+    .section1 .tarjetas div:hover {
+      padding: 12px; }
+    .section1 .tarjetas div a:hover {
+      padding: 11px;
+      background-color: black; }
+
+.section1 .tarjetas2 img {
+  width: 370px;
+  height: 370px;
+  border-radius: 30px;
+  margin: 10px; }

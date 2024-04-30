@@ -1,0 +1,40 @@
+//!reset--------------------------
+*{
+    margin: 0;
+    padding: 0;
+}
+//!header--------------------------
+.position{
+    nav{
+        position: fixed;
+    }
+}
+.formato-letras{
+    a{
+        font-size: 20px;
+        font-weight: 800;
+        color: aliceblue;
+        &:hover{
+        color: aliceblue;
+        text-shadow: 3px 3px 3px #413d3d;
+        }
+    }
+}
+.menu-color{
+    background-color: rgb(83, 153, 110);
+}
+//!footer-------------------
+footer{
+        background-color: rgb(83, 153, 110);
+    div{
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+.redes{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

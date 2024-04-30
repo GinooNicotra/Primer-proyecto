@@ -44,12 +44,7 @@ body{
     border: none;
     border-top: 1px solid #000000;
 }
-.comida1 img{
-    width: 370px;
-    height: 370px;
-    border-radius: 30px;
-    margin: 10px;
-}
+
 .section1 .tarjetas div a{
     background-color: rgb(214, 154, 42);
     color: white;

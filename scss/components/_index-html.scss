@@ -1,0 +1,56 @@
+body{
+    padding-top: 55px;
+}
+.section1{
+    .separador{
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        .separador-texto{
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .linea{
+            flex-grow: 1;
+            border: none;
+            border-top: 1px solid #000000;
+        }
+    }
+    .tarjetas{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        div{
+            img{
+                width: 370px;
+                height: 370;
+                border-radius: 30px;
+                margin: 15px;
+                margin-bottom: 17px;
+            }
+            &:hover{
+                padding: 12px;
+            }
+            a{
+                &:hover{
+                    padding: 11px;
+                    background-color: black;
+                }
+            }
+                background-color: rgb(214, 154, 42);
+                color: white;
+                border-radius: 20px;
+                padding: 6px;
+                text-decoration: none
+            }
+        }
+    .tarjetas2{
+        img{
+            width: 370px;
+            height: 370px;
+            border-radius: 30px;
+            margin: 10px;
+        }
+    }
+}
